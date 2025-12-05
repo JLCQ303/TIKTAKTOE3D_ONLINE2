@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>Tic Tac Toe 3D</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h1>Tic Tac Toe 3D - Multijugador</h1>
+<div class="controls">
+<input id="room" placeholder="Código de sala">
+<button id="btnJoin">Entrar</button>
+<span id="labelRole"></span>
+</div>
+<h2 id="turno"></h2>
+<div id="tablero" class="tablero-grid"></div>
+<div class="footer">
+<button id="btnRestart">Reiniciar partida</button>
+</div>
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+<script src="/static/main.js"></script>
+</body>
+</html>

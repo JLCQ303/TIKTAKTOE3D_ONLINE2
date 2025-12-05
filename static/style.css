@@ -1,0 +1,16 @@
+body{background:#202020;color:white;text-align:center;font-family:Arial}
+.controls{margin:12px}
+input{padding:6px;font-size:16px}
+button{padding:8px 12px;font-size:16px;margin-left:6px;cursor:pointer}
+.tablero-grid{
+ width:820px;margin:10px auto;display:grid;
+ grid-template-columns:repeat(16,50px);
+ grid-template-rows:repeat(16,50px);
+ gap:2px;justify-content:center;align-items:start}
+.placeholder{width:50px;height:50px}
+.celda{
+ width:50px;height:50px;border:1px solid #555;
+ font-size:20px;display:flex;justify-content:center;
+ align-items:center;background:white;color:black;cursor:pointer}
+.celda.blue{color:blue}.celda.red{color:red}
+.celda.winner{background:red;color:yellow;font-weight:bold}
